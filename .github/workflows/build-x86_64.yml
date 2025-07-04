@@ -1,6 +1,7 @@
 name: Build x86_64
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - v1.77.3-dev
